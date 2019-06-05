@@ -1,0 +1,7 @@
+parameters:
+  git_dir: .
+  bin_dir: vendor/bin
+  tasks:
+    phpcs:
+      standard: [PEAR, PSR1, PSR12, PSR2]
+      ignore_patterns: [./tests/*, ./resources/*, ./database/*, ./bootstrap/*, ./config/*, ./public/*]
